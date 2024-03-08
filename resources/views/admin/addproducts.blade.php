@@ -1,5 +1,5 @@
 @extends('admin.layouts.template')
 
 @section('content')
-    hello form dashboard
+    hello form add products
 @endsection
