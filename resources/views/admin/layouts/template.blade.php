@@ -60,7 +60,7 @@
 
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
-            <a href="index.html" class="app-brand-link">
+            <a href="{{ route('admindashboard') }}" class="app-brand-link">
               <span class="app-brand-text demo menu-text fw-bolder ms-2">local shop</span>
             </a>
 
@@ -74,7 +74,7 @@
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item active">
-              <a href="index.html" class="menu-link">
+              <a href="{{ route('admindashboard') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -85,13 +85,13 @@
               <span class="menu-header-text">Categpry</span>
             </li>
             <li class="menu-item">
-                <a href="index.html" class="menu-link">
+                <a href="{{ route('addcategory') }}" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-home-circle"></i>
                   <div data-i18n="Analytics">Add category</div>
                 </a>
               </li>
               <li class="menu-item">
-                <a href="index.html" class="menu-link">
+                <a href="{{ route('allcategory') }}" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-home-circle"></i>
                   <div data-i18n="Analytics">All category</div>
                 </a>
@@ -102,13 +102,13 @@
                 <span class="menu-header-text">Sub category</span>
               </li>
               <li class="menu-item">
-                  <a href="index.html" class="menu-link">
+                  <a href="{{ route('addsubcategory') }}" class="menu-link">
                     <i class="menu-icon tf-icons bx bx-home-circle"></i>
                     <div data-i18n="Analytics">Add sub category</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="index.html" class="menu-link">
+                  <a href="{{ route('allsubcategory') }}" class="menu-link">
                     <i class="menu-icon tf-icons bx bx-home-circle"></i>
                     <div data-i18n="Analytics">All sub category</div>
                   </a>
@@ -119,13 +119,13 @@
                     <span class="menu-header-text">Product</span>
                   </li>
                   <li class="menu-item">
-                      <a href="index.html" class="menu-link">
+                      <a href="{{ route('addproducts') }}" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Add Product</div>
                       </a>
                     </li>
                     <li class="menu-item">
-                      <a href="index.html" class="menu-link">
+                      <a href="{{ route('allproducts') }}" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">All Product</div>
                       </a>
@@ -136,24 +136,11 @@
                         <span class="menu-header-text">Orders</span>
                       </li>
                       <li class="menu-item">
-                          <a href="index.html" class="menu-link">
+                          <a href="{{ route('pendingorders') }}" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-home-circle"></i>
                             <div data-i18n="Analytics">Pending orders</div>
                           </a>
                         </li>
-                        <li class="menu-item">
-                          <a href="index.html" class="menu-link">
-                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                            <div data-i18n="Analytics">Complete orders</div>
-                          </a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="index.html" class="menu-link">
-                              <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                              <div data-i18n="Analytics">Cancel orders</div>
-                            </a>
-                          </li>
-
 
 
           </ul>
